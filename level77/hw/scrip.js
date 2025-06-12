@@ -13,4 +13,25 @@ sliced.splice(1, 0, 100, 200);
 console.log(arr);
 console.log(spliced);
 console.log(sliced);
+console.log("arr type:" ,typeof fruits)
 
+
+
+const human = {
+    gender:"male",
+    age:14,
+fullname:function(){
+    return"human.gender:${this.gender} "
+}
+}
+console.log(human.model.gender)
+console.log(human.age)
+human.color="black"
+console.log(Object.keys(human))
+console.log(Object.values(human))
+console.log("----------------------")
+this.firstname=fname
+this.lastame=lname
+this.age=age
+this.eye=eye
+ 
